@@ -1,0 +1,137 @@
+/*big tablets*/
+
+@media only screen and (max-width: 1200px) {
+	.hero-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+
+	.row {
+		padding: 0 2%;
+	}
+}
+
+
+/* small tables to big tablets*/
+
+@media only screen and (max-width: 1023px) {
+	body {font-size: 18px;}
+	section{padding: 60px 0;}
+
+	.sticky .main-nav li a:link, 
+	.sticky .main-nav li a:visited {
+		padding-bottom: 23px;
+	}
+
+	.long-copy {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.steps-box {
+		margin-top: 10px;
+	}
+
+	.steps-box:last-child {
+		margin-top: 40px;
+	}
+
+	.works-step:last-of-type {
+		margin-bottom: 60px;
+	}
+
+	.app-screen {
+		width: 70%;
+	}
+
+	.btn-app img {
+		height: 40px;
+	}
+
+	.icon-small {
+		width: 17px;
+		margin-right: 5px;
+	}
+
+	.city-feature {font-size: 90%;}
+
+	br {
+		display: static;
+	}
+
+}
+
+/* small phones to small tablets*/
+
+@media only screen and (max-width: 767px) {
+
+	.main-nav,
+	.sticky .main-nav {
+		float: left;
+		margin-top: 27px;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.main-nav li {
+		display: block;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		border: 0;
+	}
+
+	.mobile-nav {
+		display: block;
+		cursor: pointer;
+		margin-top: 25px;
+	}
+
+	/* sticky */
+
+	.sticky .mobile-nav{
+		display: none;
+	}
+
+	.sticky .main-nav {
+		display: none;
+	}
+
+	.sticky .main-nav li {
+		display: block;
+	}
+
+	.sticky .main-nav {
+		float: left;
+		margin-top: 0;
+		font-size: 15px;
+	}
+
+	.sticky .mobile-nav {
+		display: block;
+		cursor: pointer;
+		margin-top: 0;
+		color: #333;
+		float: right;
+	}
+
+	
+	
+	.sticky .main-nav li a:link, 
+	.sticky .main-nav li a:visited {
+		color: #333;
+		padding-bottom: 20px;
+	}
+	
+}
+
+/*Small phones */
+
+@media only screen and (max-width: 480px) {
+	
+}
+
+
+
